@@ -100,7 +100,7 @@ int main()
                                 if(desired_speed>speed)
                                 {
                                     //favorite in slow acceleration;
-                                    velocity_controller.SetParms(1.0, 0.0, 0.1);
+                                    velocity_controller.SetParms(1.0, 0.0, 0.2);
                                 }
                                 else
                                 {
